@@ -5,6 +5,8 @@ import designPatterns.creational.builder.houseParts.gate.BigMetalGate;
 import designPatterns.creational.builder.houseParts.gate.Gate;
 import designPatterns.creational.prototype.cloning.CloneThisClass;
 import designPatterns.creational.prototype.cloning.ShallowCloneClass;
+import designPatterns.structural.proxy.caching.entity.UserInfo;
+import designPatterns.structural.proxy.caching.service.ProxyUserService;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -35,5 +37,13 @@ public class Main {
 //        if(s1.getData() == s2.getData()) System.out.println("object s1 and s2 are shallow copy");
 //        else System.out.println("Yes object s1 and s2 are deep copied");
 
+
+
+        //proxy pattern checking
+//        ProxyUserService service = new ProxyUserService();
+//        UserInfo user = service.getUser(1);
+//        UserInfo user2 = service.getUser(1);
+//        UserInfo user3 = service.getUser(3);
+//        UserInfo user4 = service.getUser(3);
     }
 }
