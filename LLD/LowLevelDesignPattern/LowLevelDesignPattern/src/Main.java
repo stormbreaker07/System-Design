@@ -3,9 +3,11 @@ import designPatterns.creational.builder.director.Director;
 import designPatterns.creational.builder.house.BigHouse;
 import designPatterns.creational.builder.houseParts.gate.BigMetalGate;
 import designPatterns.creational.builder.houseParts.gate.Gate;
+import designPatterns.creational.prototype.cloning.CloneThisClass;
+import designPatterns.creational.prototype.cloning.ShallowCloneClass;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
 
         //making big house
 //        Director director = new Director();
@@ -15,6 +17,23 @@ public class Main {
 //        BigHouse house = buildBigHouse.getResultHouse();
 //        System.out.println(house);
 
+//        CloneThisClass c1 = new CloneThisClass();
+//        c1.printData();
+//
+//        CloneThisClass c3 = (CloneThisClass) c1.deepClone();
+//        c3.printData();
+//
+//        if(c1.getData() == c3.getData()) System.out.println("object c1 and c3 are shallow copy");
+//        else System.out.println("Yes object c1 and c3 are deep copied");
+//
+//        ShallowCloneClass s1 = new ShallowCloneClass();
+//        s1.printData();
+//
+//        ShallowCloneClass s2 = s1.clone();
+//        s2.printData();
+//
+//        if(s1.getData() == s2.getData()) System.out.println("object s1 and s2 are shallow copy");
+//        else System.out.println("Yes object s1 and s2 are deep copied");
 
     }
 }
