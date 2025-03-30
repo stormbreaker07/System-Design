@@ -9,3 +9,7 @@ Desing Pattern:
         1. Builder's Code 
         2. Factory's Code
         3. Singleton's Code
+        3. Prototype's Code
+    Creational Design Patterns:
+        1. Proxy's Code
+        2. Adapter's Code
