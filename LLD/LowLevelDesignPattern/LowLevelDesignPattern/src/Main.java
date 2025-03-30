@@ -5,6 +5,11 @@ import designPatterns.creational.builder.houseParts.gate.BigMetalGate;
 import designPatterns.creational.builder.houseParts.gate.Gate;
 import designPatterns.creational.prototype.cloning.CloneThisClass;
 import designPatterns.creational.prototype.cloning.ShallowCloneClass;
+import designPatterns.structural.decorator.baseCoffee.BaseCoffee;
+import designPatterns.structural.decorator.coffeeDecorators.HazlenutDecorator;
+import designPatterns.structural.decorator.coffeeDecorators.MilkDecorator;
+import designPatterns.structural.decorator.coffeeDecorators.SugarDecorator;
+import designPatterns.structural.decorator.coffeeDecorators.VanillaDecorator;
 import designPatterns.structural.proxy.caching.entity.UserInfo;
 import designPatterns.structural.proxy.caching.service.ProxyUserService;
 
@@ -45,6 +50,32 @@ public class Main {
 //        UserInfo user2 = service.getUser(1);
 //        UserInfo user3 = service.getUser(3);
 //        UserInfo user4 = service.getUser(3);
+
+
+//        THIS IS FOR DECORATOR
+//        BaseCoffee coffee = new BaseCoffee(6, "pure arabica");
+//        System.out.println(coffee.coffeeDescription());
+//        System.out.println(coffee.getCoffeePrice());
+//
+//        //add milk
+//        coffee = new MilkDecorator(coffee);
+//        System.out.println(coffee.coffeeDescription());
+//        System.out.println(coffee.getCoffeePrice());
+//
+//        //add hazlenut
+//        coffee = new HazlenutDecorator(coffee);
+//        System.out.println(coffee.coffeeDescription());
+//        System.out.println(coffee.getCoffeePrice());
+//
+//        //add vanilla
+//        coffee = new VanillaDecorator(coffee);
+//        System.out.println(coffee.coffeeDescription());
+//        System.out.println(coffee.getCoffeePrice());
+//
+//        //add sugar
+//        coffee = new SugarDecorator(coffee);
+//        System.out.println(coffee.coffeeDescription());
+//        System.out.println(coffee.getCoffeePrice());
 
     }
 }
