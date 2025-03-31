@@ -1,0 +1,28 @@
+The Publish-Subscribe (Pub-Sub) model is an asynchronous messaging pattern where publishers send messages
+to topics, and subscribers receive messages from these topics. The broker ensures message delivery to all
+subscribers interested in a particular topic.
+
+A Pub/sub model is basically similar to Observer design pattern, any change in the observant state will
+get notified to all the observers.
+
+A publisher subscriber model contain 5 major part:
+
+1. Publisher -> publish message to the specific topic.
+2. Broker -> handle message routing and distribution to subscribers
+    broker have records of all topics.
+    broker help subscriber to subscribe to a topic.
+    broker notify topic to notify the subscriber about the new message from publisher.
+3. Subscriber -> consumer message from the publisher
+4. Topic -> topic contains all the subscriber subscribed to it, any new change or message in topic then topic
+    will notify all subscribers about it.
+5. Message Processing Service -> ensure message reliability and delivery guarantee.
+
+
+Now there is a topic can be defined as a class that get records of all the subscribers subscribe to it, that is
+any change or message send from the publisher to the topic it will directly send to the mapped subscriber.
+Each broker contains the list of topic and different subscribers mapped to that topic.
+Each publisher before sending message declare the topic name and the message which then mapped to desired
+topic.
+Message processing service can be a queue that contain all the record of the message comming from all subscriber
+we are not going implement it here in this code part, but work on it later.
+
