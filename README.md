@@ -1,5 +1,12 @@
-# System-Design
+# System-Design :
 Here we add all the code that belongs to best practise of hld and lld
+
+| Column 1 | Column 2                                  |
+|---------------------|--------------------------------|
+| Observer Pattern   | Notify-Me Button Functionality  |
+| Decorator Pattern    | Pizza Billing System   |
+| Factory Pattern  | Parking Lot |
+|Abstract Factory Pattern | Snake n Ladder game|
 
 
 LLD:
@@ -13,10 +20,6 @@ Desing Pattern:
     Creational Design Patterns:
         1. Proxy's Code
         2. Adapter's Code
-
-
-
-
 
 
 
