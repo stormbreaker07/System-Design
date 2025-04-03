@@ -82,6 +82,7 @@ Visitor Pattern
 | 37           | Design Restaurant Management System                             | 🔴 Not Started  |
 | 38           | Design Bowling Alley Machine                                    | 🔴 Not Started  |
 | 39           | Design (LLD) Rate Limiter                                       | 🔴 Not Started  |
+| 40           | Publ Sub Model                                                  | 🟢 Completed    |
 
 
 
