@@ -1,94 +1,95 @@
 # System-Design :
 Here we add all the code that belongs to best practise of hld and lld
 
-| Column 1 | Column 2                                  |
-|---------------------|--------------------------------|
-| Observer Pattern   | Notify-Me Button Functionality  |
-| Decorator Pattern    | Pizza Billing System   |
-| Factory Pattern  | Parking Lot |
-|Abstract Factory Pattern | Snake n Ladder game|
+## LLD:
+Discuss and write some low level design Architecture.
+
+## Design Pattern:  
 
 
-LLD:
-
-Desing Pattern:
-    Creational Design Patterns:
-        1. Builder's Code 
-        2. Factory's Code
-        3. Singleton's Code
-        3. Prototype's Code
-    Creational Design Patterns:
-        1. Proxy's Code
-        2. Adapter's Code
+1. [Creational Design Pattern](#paragraph1)  
+    1. [Builder Design Pattern](#subparagraph1)
+    2. [Factory Design Pattern]()  
+    3. [Singleton Design Pattern]()
+    4. [Prototype Design Pattern]()
+2. [Structural Design Pattern](#paragraph1)  
+    1. [Proxy Design Pattern](#subparagraph1)
+    2. [Adapter Design Pattern]()  
+3. [Behavioral Design Pattern](#paragraph2)  
 
 
-
-Targets in LLD:
+# Targets in Design Pattern:
 
 
 S.O.L.I.D Principles
 Strategy Pattern
 Observer Pattern
-Design Notify-Me Button Functionality
 Decorator Pattern
-Design  Pizza Billing System
-Factory Pattern
-Design  Parking Lot
 Abstract Factory Pattern
-Design  Snake n Ladder game
 Chain of Responsibility Pattern
-Design Elevator System
-Proxy Pattern
-Design Car Rental System
 Null Object Pattern
-Design Logging System
 State Pattern
-Design Tic-Tac-Toe game
 Composite Pattern
-Design BookMyShow & Concurrency handling
-Adapter Pattern
-Design Vending Machine
-Singleton Pattern
-Design ATM
-Builder Pattern
-Design Chess game
-Prototype Pattern
-Design File System
 Bridge Pattern
-Design Splitwise
 Façade Pattern
-Splitwise Simplify Algorithm / Optimal Accounting Balancing 
 Flyweight Pattern
-Design CricBuzz / CricketInfo
 Command Pattern
-Design True Caller
 Interpreter Pattern
-Design Car Booking Service like Ola, Uber
 Iterator Pattern
-Design Online Hotel Booking System
 Mediator Pattern
-Design Library Management System
 Memento Pattern
-Design  Traffic Light System
 Template Method Pattern
-Design Meeting Scheduler 
 Visitor Pattern
-Design Online Voting System
-Design Inventory Management System
-Design Cache Mechanism
-Design LinkedIn 
-Design Amazon 
-Design Airline Management System 
-Design Stock Exchange System
-Design Learning Management System
-Design a Calendar Application
-Design (LLD) Payment System
-Design (LLD) Chat based system
-Design Food delivery app like Swiggy and Zomato
-Design Community Discussion Platform
-Design Restaurant Management System
-Design Bowling Alley Machine 
-Design (LLD) Rate Limiter
+
+| Design Number | Popular System Design Name                                     | Progress 🆗     |
+|--------------|-----------------------------------------------------------------|-----------------|
+| 1            | Notify-Me Button Functionality                                  | 🟡In Progress   |
+| 2            | Pizza Billing System                                            | 🔴 Not Started  |
+| 3            | Parking Lot System                                              | 🟢 Completed    |
+| 4            | Snake and Ladder Game                                           | 🟢 Completed    |
+| 5            | Design Elevator System                                          | 🔴 Not Started  |
+| 6            | Design Car Rental System                                        | 🔴 Not Started  |
+| 7            | Design Logging System                                           | 🔴 Not Started  |
+| 8            | Design Tic-Tac-Toe Game                                         | 🔴 Not Started  |
+| 9            | Design BookMyShow & Concurrency Handling                        | 🔴 Not Started  |
+| 10           | Design Vending Machine                                          | 🔴 Not Started  |
+| 11           | Design ATM                                                      | 🔴 Not Started  |
+| 12           | Design Chess Game                                               | 🔴 Not Started  |
+| 13           | Design File System                                              | 🔴 Not Started  |
+| 14           | Design Splitwise                                                | 🔴 Not Started  |
+| 15           | Splitwise Simplify Algorithm / Optimal Accounting Balancing     | 🔴 Not Started  |
+| 16           | Design CricBuzz / CricketInfo                                   | 🔴 Not Started  |
+| 17           | Design True Caller                                              | 🔴 Not Started  |
+| 18           | Design Car Booking Service like Ola, Uber                       | 🔴 Not Started  |
+| 19           | Design Online Hotel Booking System                              | 🔴 Not Started  |
+| 20           | Design Library Management System                                | 🔴 Not Started  |
+| 21           | Design Traffic Light System                                     | 🔴 Not Started  |
+| 22           | Design Meeting Scheduler                                        | 🔴 Not Started  |
+| 23           | Design Online Voting System                                     | 🔴 Not Started  |
+| 24           | Design Traffic Light System                                     | 🔴 Not Started  |
+| 25           | Design Inventory Management System                              | 🔴 Not Started  |
+| 26           | Design Cache Mechanism                                          | 🔴 Not Started  |
+| 27           | Design LinkedIn                                                 | 🔴 Not Started  |
+| 28           | Design Amazon                                                   | 🔴 Not Started  |
+| 29           | Design Airline Management System                                | 🔴 Not Started  |
+| 30           | Design Stock Exchange System                                    | 🔴 Not Started  |
+| 31           | Design Learning Management System                               | 🔴 Not Started  |
+| 32           | Design a Calendar Application                                   | 🔴 Not Started  |
+| 33           | Design (LLD) Payment System                                     | 🔴 Not Started  |
+| 34           | Design (LLD) Chat-based System                                  | 🔴 Not Started  |
+| 35           | Design Food Delivery App like Swiggy and Zomato                 | 🔴 Not Started  |
+| 36           | Design Community Discussion Platform                            | 🔴 Not Started  |
+| 37           | Design Restaurant Management System                             | 🔴 Not Started  |
+| 38           | Design Bowling Alley Machine                                    | 🔴 Not Started  |
+| 39           | Design (LLD) Rate Limiter                                       | 🔴 Not Started  |
+
+
+
+
+
+
+
+
 
 HLD topics 🔥 🔥 :
 -----------------------------
