@@ -10,17 +10,7 @@ public class Ladder implements LadderInterface{
         this.endingPoint = endingPoint;
     }
 
-    @Override
-    public int getLadderStartPoint() {
-        return startingPoint;
-    }
-
-    @Override
-    public int getLadderEndPoint() {
-        return endingPoint;
-    }
-
-    @Override
+        @Override
     public int useLadder(int currPosition) {
         return currPosition == startingPoint ? endingPoint : currPosition;
     }

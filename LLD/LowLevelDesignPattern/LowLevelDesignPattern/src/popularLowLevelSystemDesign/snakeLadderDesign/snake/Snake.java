@@ -11,16 +11,6 @@ public class Snake implements SnakeInterface{
     }
 
     @Override
-    public int getStartingPoint() {
-        return startingPoint;
-    }
-
-    @Override
-    public int getEndingPoint() {
-        return endingPoint;
-    }
-
-    @Override
     public int bitePlayer(int currPosition) {
         return currPosition == startingPoint ? endingPoint : currPosition;
     }
