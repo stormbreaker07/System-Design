@@ -12,6 +12,9 @@ import designPatterns.structural.decorator.coffeeDecorators.SugarDecorator;
 import designPatterns.structural.decorator.coffeeDecorators.VanillaDecorator;
 import designPatterns.structural.proxy.caching.entity.UserInfo;
 import designPatterns.structural.proxy.caching.service.ProxyUserService;
+import popularLowLevelSystemDesign.snakeLadderDesign.dice.Dice;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -77,5 +80,7 @@ public class Main {
 //        System.out.println(coffee.coffeeDescription());
 //        System.out.println(coffee.getCoffeePrice());
 
+        List<Integer> lt = Dice.rollDice();
+        lt.forEach(System.out::println);
     }
 }
